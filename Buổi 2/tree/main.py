@@ -1,6 +1,7 @@
 from traversal import *
 from search import *
 from delete import *
+from draw import *
 class Node:
     def __init__(self, key):
         self.key = key
@@ -26,7 +27,7 @@ def insert(node, key):
 def main():
     i = int(0)
     while (i != 6):
-        print("Nhập 1 để tạo mới BST\nNhập 2 để thêm node\nNhập 3 để tìm kiếm node\nNhập 4 để xoá node\nNhập 5 để duyệt node\nNhập 6 để thoát")
+        print("Nhập 1 để tạo mới BST\nNhập 2 để thêm node\nNhập 3 để tìm kiếm node\nNhập 4 để xoá node\nNhập 5 để duyệt node\nNhập 6 để vẽ")
         i = int(input("Lựa chọn: "))
         if (i == 1):
             root = None
@@ -76,7 +77,7 @@ def main():
                 elif (a==4):
                     break
         elif (i==6):
-            break
+            plot_tree(root)
         else:
             print("Lỗi vui lòng nhập lại: ")
 
