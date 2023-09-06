@@ -1,0 +1,71 @@
+.d-flex {
+    margin-top: 10px;
+}
+
+.collapse {
+    margin-left: 600px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.btn-Buy {
+    margin-right: 100px;
+}
+
+.page-header-ui-title {
+    font-size: 2.0rem;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 150px;
+}
+
+.target {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.bg1 {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card-body {
+    margin: auto;
+    margin-left: 100px;
+}
+
+.member {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bg4 {
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.card1 {
+    margin-left: 0px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.line {
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid black;
+    position: absolute;
+}
