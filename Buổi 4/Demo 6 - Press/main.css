@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Metropolis', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 0 40px;
+}
+.home{
+    color: black;
+    font-weight: bold;
+    font-size: 19.2px;
+}
+.navbar{
+    margin: 0 40px 0 127px;
+    padding: 28px 0;
+}
+.category{
+    padding: 8px;
+    color: black;
+    font-weight: 500;
+    opacity: 0.6;
+}
