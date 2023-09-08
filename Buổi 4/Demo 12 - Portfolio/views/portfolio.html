@@ -6,14 +6,16 @@
     <title>Document</title>
     <title>Hello world</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../public/css/styles.css">
     <link rel="stylesheet" href="../public/css/form.css">
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
                 DohaHouse
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -25,11 +27,15 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-xl no-caret">
-                            <a class="nav-link active dropdown-toggle" id="navbarDropdownPages" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Sản phẩm
-                            </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm</a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="http://127.0.0.1:5500/index.html">Demo 6: Press</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://t.me/Silun_bot">Apotato</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Về chúng tôi</a>
@@ -49,7 +55,7 @@
                 </div>
         </div>
     </nav>
-    <header class="page-header-ui page-header-ui-light bg-white">
+    <header class="page page-header-ui page-header-ui-light bg-white">
         <div class="page-header-ui-content">
             <div class="container px-5">
                 <div class="rox gx-5 justify-content-center">
@@ -70,12 +76,18 @@
         <div class="container px-5">
             <div class="row gx-5 text-center">
                 <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="/public/images/pencil.svg" alt="Bootstrap" width="32" height="32">
+                    </div>
                     <div class="target-1">
                         <h3>Gia đình</h3>
                         <p>DohaHouse là một gia đình, không ai bị bỏ rơi và cũng không ai bị bỏ lại</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="/public/images/book.svg" alt="Bootstrap" width="32" height="32">
+                    </div>
                     <div class="target-1">
                         <h3>Kiến thức</h3>
                         <p>DohaHouse hướng tới mục tiêu giúp thành viên hiểu và hoàn thành môn Học theo Dự án khoa học
@@ -83,6 +95,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="/public/images/4-square.svg" alt="Bootstrap" width="32" height="32">
+                        <img src="/public/images/0-square.svg" alt="Bootstrap" width="32" height="32">
+
+                    </div>
                     <div class="target-1">
                         <h3>4.0 GPA</h3>
                         <p>DohaHouse đảm bảo các thành viên đều đạt 4.0 GPA cuối khóa
@@ -91,10 +108,7 @@
                 </div>
             </div>
             <div class="svg-border-rounded text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none"
-                    fill="currentColor">
-                    <path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path>
-                </svg>
+                <img>
             </div>
     </section>
     <div class="member">
@@ -107,7 +121,57 @@
                     <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
                         <img class="card-img-top" src="/public/images/dodo.jpg" alt="...">
                         <div class="card-body">
-                            <div>CEO Đỗ Trung Hiếu</div>
+                            <div>CEO Đỗ Trung Hiếu
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/dungtruong.jpg" alt="..." ,height="400"
+                            width="374">
+                        <div class="card-body">
+                            <div class="name">CTO Full-stack Trương Tiến Dũng</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/tuan.jpg" alt="..." height="400" width="374">
+                        <div class="card-body">
+                            <div class="name">Tester Phạm Minh Tuấn</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/toan.jpg" alt="..." height="400" width="374">
+                        <div class="card-body">
+                            <div class="name1">Anh già Trần Tiến Toàn</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/tung.jpg" alt="..." height="400" width="374">
+                        <div class="card-body">
+                            <div class="name2">Nguyễn Duy Tùng bắc Linh</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/trung.png" alt="..." height="400" width="374">
+                        <div class="card-body">
+                            <div class="name">Bùi Thế Trung Kẻ độc tài (2012)</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="last col-md-4">
+                    <a class="card card-portfolio mb-5" href="https://www.facebook.com/dotrunghieuxk">
+                        <img class="card-img-top" src="/public/images/nam.jpg" alt="..." height="400" width="374">
+                        <div class="card-body">
+                            <div class="name3">Nam.</div>
                         </div>
                     </a>
                 </div>
@@ -124,13 +188,19 @@
                     <div class="row gx-5">
                         <div class="col">
                             <div class="card1 card">
+                                <div class="icon-call">
+                                    <img src="/public/images/telephone.svg" alt="Bootstrap" width="32" height="32">
+                                </div>
                                 <div class="card1 card-body">
-                                    <div class="small1">Anh Kiêm - 0366408***</div>
+                                    <div class="small1">1019775288 - Viecombank</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card1 card">
+                                <div class="icon-call">
+                                    <img src="/public/images/building-add.svg" alt="Bootstrap" width="32" height="32">
+                                </div>
                                 <div class="card1 card-body">
                                     <div class="small">545 P. Kim Mã, Ngọc Khánh, Ba Đình, Hà Nội</div>
                                 </div>
@@ -151,7 +221,11 @@
 
     <script type="text/javascript" src="../bootstrap/js/bootstrap.js">
     </script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 

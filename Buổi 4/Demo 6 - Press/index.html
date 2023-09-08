@@ -1,241 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SB UI Kit Pro - Theme Preview - Start Bootstrap</title>
     <!-- <link rel="stylesheet" href="main.css"> -->
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <div id="laytoutDefault">
-        <div id="layoutDefault_content">
-            <div class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
-                <div class="container px-5">
-                    <a href="" class="navbar-branch text-dark">SB UI Kit Pro</a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupporttedContent">
-                    <ul class="navbar-nav ms-auto me-lg-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">
+                DohaHouse
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar1 navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a href="" class="nav-link">Home</a>
+                            <a class="trangchu nav-link active" aria-current="page" href="#">Trang chủ</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-xl no-caret">
-                            <a href="" class="nav-link">Landings</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Sản phẩm</a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="http://127.0.0.1:5501/views/portfolio.html#">Demo 12:
+                                        Portfolio</a>
+                                </li>
+                                <li><a class="dropdown-item" href="https://t.me/Silun_bot">Apotato</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item dropdown dropdown-xl no-caret">
-                            <a href="" class="nav-link">Pages</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Về chúng tôi</a>
                         </li>
-                        <li class="nav-item dropdown dropdown-xl no-caret">
-                            <a href="" class="nav-link">Documentation</a>
                         </li>
                     </ul>
-                    <a class="btn fw-500 ms-lg-4 btn-teal">Buy Now</a>
+                    <a class="btn-Buy btn fw-500 ms-lg-4 btn-primary"
+                        href="https://www.facebook.com/profile.php?id=100088856981074">
+                        BigHeart
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-arrow-right ms-2">
+                            <line x1="" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+        </div>
+    </nav>
+    <div id="laytoutDefault">
+        <section class="bg-light py-5">
+            <div class="container px-5">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="mb-0">Featured Story</h6>
+                </div>
+                <hr class="mb-4">
+                <div class="card mb-4">
+                    <div class="card-body p-0">
+                        <div class="row g-0">
+                            <div class="col-lg-6 p-5">
+                                <a class="badge badge-marketing bg-primary-soft rounded-pill text-primary mb-3"
+                                    href="#!">Web</a>
+                                <a class="text-dark" href="#!">
+                                    <h1>DohaHouse trở thành Start-up kì lân mới của Châu Á
+                                    </h1>
+                                </a>
+                                <p>When creating and developing startups, using a UI kit to bootstrap your companies
+                                    website can be an extremely efficient way to save time, money, and runway.</p>
+                                <a class="text-arrow-icon small" href="#!">
+                                    Read more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-arrow-right">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex"
+                                style="background-image: url('https://source.unsplash.com/npxXWgQ33ZQ/1200x800')"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between">
+                    <h6 class="mb-0">Top Stories</h6>
+                    <div>
+                        <a class="text-arrow-icon small" href="#!">
+                            View more
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="feather feather-arrow-right">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="row gx-5">
+                    <div class="col-lg-7 col-xl-8">
+                        <div class="d-flex">
+                            <div class="flex-grow-1">
+                                <a class="text-dark" href="#!">
+                                    <h5 class="mt-0">Liệu có phải CEO Đỗ Hiếu đang tập trung cho thị trường Thái Lan mà
+                                        quên mất fan Việt</h5>
+                                </a>
+                                <p>Trong clip Tóp Tóp gần nhất, Ca sĩ kiêm CEO của DohaHouse - DoDo đã thể hiện hàng
+                                    loạt ca khúc dành tặng cho fan Thái. Liệu rằng đây là dấu hiệu cho việc từ bỏ thị
+                                    trường Việt Nam của anh</p>
+                                <a class="text-arrow-icon small" href="#!">
+                                    Read more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-arrow-right">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="flex-shrink-0 ms-4"><img class="align-self-start rounded shadow media-img"
+                                    src="/dodo.jpg" width="160" height="160" alt="..."></div>
+                        </div>
+
+                        <hr class="my-4 d-lg-none">
+                    </div>
+                    <div class="col-lg-5 col-xl-4">
+                        <div class="card">
+                            <div class="card123 card-body">
+                                <h6>Opinion</h6>
+                                <hr>
+                                <div class="d-flex mb-4">
+                                    <div class="avatar avatar-lg"><img class="avatar-img" src="/tuan.jpg" height="128"
+                                            weight="128">
+                                    </div>
+                                    <div class="ms-3">
+                                        <a class="text-dark" href="#!">
+                                            <h6 class="mb-1">CEO Đỗ Hiếu đã thay đổi</h6>
+                                        </a>
+                                        <div class="small text-gray-500">
+                                            by
+                                            <a class="text-gray-500" href="#!">Tuấn Cùi</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    <div id="layoutDefault_footer">
+        <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
+            <div class="container px-5">
+                <div class="row gx-5">
+                    <div class="col-lg-3">
+                        <div class="footer-brand">SB UI Kit Pro</div>
+                        <div class="mb-3">Design made easy</div>
+                        <div class="icon-list-social mb-5">
+                            <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-instagram"
+                                    aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                    data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg><!-- <i class="fab fa-instagram"></i> Font Awesome fontawesome.com --></a>
+                            <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-facebook"
+                                    aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                                    </path>
+                                </svg><!-- <i class="fab fa-facebook"></i> Font Awesome fontawesome.com --></a>
+                            <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-github"
+                                    aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                    </path>
+                                </svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com --></a>
+                            <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-twitter"
+                                    aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                    data-fa-i2svg="">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg><!-- <i class="fab fa-twitter"></i> Font Awesome fontawesome.com --></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row gx-5">
+                            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                <div class="text-uppercase-expanded text-xs mb-4">Product</div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="#!">Landing</a></li>
+                                    <li class="mb-2"><a href="#!">Pages</a></li>
+                                    <li class="mb-2"><a href="#!">Sections</a></li>
+                                    <li class="mb-2"><a href="#!">Documentation</a></li>
+                                    <li><a href="#!">Changelog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                                <div class="text-uppercase-expanded text-xs mb-4">Technical</div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="#!">Documentation</a></li>
+                                    <li class="mb-2"><a href="#!">Changelog</a></li>
+                                    <li class="mb-2"><a href="#!">Theme Customizer</a></li>
+                                    <li><a href="#!">UI Kit</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                                <div class="text-uppercase-expanded text-xs mb-4">Includes</div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="#!">Utilities</a></li>
+                                    <li class="mb-2"><a href="#!">Components</a></li>
+                                    <li class="mb-2"><a href="#!">Layouts</a></li>
+                                    <li class="mb-2"><a href="#!">Code Samples</a></li>
+                                    <li class="mb-2"><a href="#!">Products</a></li>
+                                    <li class="mb-2"><a href="#!">Affiliates</a></li>
+                                    <li><a href="#!">Updates</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="text-uppercase-expanded text-xs mb-4">Legal</div>
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-2"><a href="#!">Privacy Policy</a></li>
+                                    <li class="mb-2"><a href="#!">Terms and Conditions</a></li>
+                                    <li><a href="#!">License</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-md-6 small">Copyright © Your Website 2023</div>
+                    <div class="col-md-6 text-md-end small">
+                        <a href="#!">Privacy Policy</a>
+                        ·
+                        <a href="#!">Terms &amp; Conditions</a>
+                    </div>
                 </div>
             </div>
-            <section class="bg-light py-5">
-                <div class="container px-5">
-                    <div class="d-flex align-items-center justify-content-between">
-                        <h6 class="mb-0">Featured Story</h6>
-                    </div>
-                    <hr class="mb-4">
-                    <div class="card mb-4">
-                        <div class="card-body p-0">
-                            <div class="row g-0">
-                                <div class="col-lg-6 p-5">
-                                    <a class="badge badge-marketing bg-primary-soft rounded-pill text-primary mb-3" href="#!">Web</a>
-                                    <a class="text-dark" href="#!"><h1>News companies post headline about creating new websites with powerful UI kits</h1></a>
-                                    <p>When creating and developing startups, using a UI kit to bootstrap your companies website can be an extremely efficient way to save time, money, and runway.</p>
-                                    <a class="text-arrow-icon small" href="#!">
-                                        Read more
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                    </a>
-                                </div>
-                                <div class="col-lg-6 align-self-stretch bg-img-cover d-none d-lg-flex" style="background-image: url('https://source.unsplash.com/npxXWgQ33ZQ/1200x800')"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between">
-                        <h6 class="mb-0">Top Stories</h6>
-                        <div>
-                            <a class="text-arrow-icon small" href="#!">
-                                View more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                            </a>
-                        </div>
-                    </div>
-                    <hr class="mb-4">
-                    <div class="row gx-5">
-                        <div class="col-lg-7 col-xl-8">
-                            <div class="d-flex">
-                                <div class="flex-grow-1">
-                                    <a class="text-dark" href="#!"><h5 class="mt-0">Is the Bootstrap framework the best way to build a mobile responsive website?</h5></a>
-                                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                                    <a class="text-arrow-icon small" href="#!">
-                                        Read more
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                    </a>
-                                </div>
-                                <div class="flex-shrink-0 ms-4"><img class="align-self-start rounded shadow media-img" src="https://source.unsplash.com/4hbJ-eymZ1o/160x160" alt="..."></div>
-                            </div>
-                            <hr class="my-4">
-                            <div class="d-flex">
-                                <div class="flex-grow-1">
-                                    <a class="text-dark" href="#!"><h5 class="mt-0">Is virtual reality the new UI? Exploring the use of virtual reality and 3D user interfaces for everyday products</h5></a>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat possimus delectus odit vero! Accusantium, omnis! Amet reiciendis ex numquam. Minus corporis, tempore facere placeat repellat ipsum eaque similique neque.</p>
-                                    <a class="text-arrow-icon small" href="#!">
-                                        Read more
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                    </a>
-                                </div>
-                                <div class="flex-shrink-0 ms-4"><img class="align-self-start rounded shadow media-img" src="https://source.unsplash.com/HI6gy-p-WBI/160x160" alt="..."></div>
-                            </div>
-                            <hr class="my-4">
-                            <div class="d-flex">
-                                <div class="flex-grow-1">
-                                    <a class="text-dark" href="#!"><h5 class="mt-0">How cats can improve your workflow productivity</h5></a>
-                                    <p>Quasi error voluptates, commodi enim voluptate, quisquam vitae temporibus asperiores velit vero aperiam culpa iste eius autem praesentium ducimus similique iusto dolorum.</p>
-                                    <a class="text-arrow-icon small" href="#!">
-                                        Read more
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                                    </a>
-                                </div>
-                                <div class="flex-shrink-0 ms-4"><img class="align-self-start rounded shadow media-img" src="https://source.unsplash.com/bN9FFTPlLjU/160x160" alt="..."></div>
-                            </div>
-                            <hr class="my-4 d-lg-none">
-                        </div>
-                        <div class="col-lg-5 col-xl-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6>Opinion</h6>
-                                    <hr>
-                                    <div class="d-flex mb-4">
-                                        <div class="avatar avatar-lg"><img class="avatar-img" src="assets/img/illustrations/profiles/profile-1.png"></div>
-                                        <div class="ms-3">
-                                            <a class="text-dark" href="#!"><h6 class="mb-1">Bootstrap is the best CSS framework, hands down</h6></a>
-                                            <div class="small text-gray-500">
-                                                by
-                                                <a class="text-gray-500" href="#!">Valerie Luna</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex mb-4">
-                                        <div class="avatar avatar-lg"><img class="avatar-img" src="assets/img/illustrations/profiles/profile-2.png"></div>
-                                        <div class="ms-3">
-                                            <a class="text-dark" href="#!"><h6 class="mb-1">Bootstrap is the best CSS framework, hands down</h6></a>
-                                            <div class="small text-gray-500">
-                                                by
-                                                <a class="text-gray-500" href="#!">Ewan Rogers</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex mb-4">
-                                        <div class="avatar avatar-lg"><img class="avatar-img" src="assets/img/illustrations/profiles/profile-3.png"></div>
-                                        <div class="ms-3">
-                                            <a class="text-dark" href="#!"><h6 class="mb-1">Bootstrap is the best CSS framework, hands down</h6></a>
-                                            <div class="small text-gray-500">
-                                                by
-                                                <a class="text-gray-500" href="#!">Alicia Allen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex mb-4">
-                                        <div class="avatar avatar-lg"><img class="avatar-img" src="assets/img/illustrations/profiles/profile-4.png"></div>
-                                        <div class="ms-3">
-                                            <a class="text-dark" href="#!"><h6 class="mb-1">Bootstrap is the best CSS framework, hands down</h6></a>
-                                            <div class="small text-gray-500">
-                                                by
-                                                <a class="text-gray-500" href="#!">Kolby Brock</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="d-flex">
-                                        <div class="avatar avatar-lg"><img class="avatar-img" src="assets/img/illustrations/profiles/profile-5.png"></div>
-                                        <div class="ms-3">
-                                            <a class="text-dark" href="#!"><h6 class="mb-1">Bootstrap is the best CSS framework, hands down</h6></a>
-                                            <div class="small text-gray-500">
-                                                by
-                                                <a class="text-gray-500" href="#!">William Cole</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>               
-            </section>
-        </div>
-        <div id="layoutDefault_footer">
-            <footer class="footer pt-10 pb-5 mt-auto bg-dark footer-dark">
-                <div class="container px-5">
-                    <div class="row gx-5">
-                        <div class="col-lg-3">
-                            <div class="footer-brand">SB UI Kit Pro</div>
-                            <div class="mb-3">Design made easy</div>
-                            <div class="icon-list-social mb-5">
-                                <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-instagram" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram"></i> Font Awesome fontawesome.com --></a>
-                                <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-facebook" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg><!-- <i class="fab fa-facebook"></i> Font Awesome fontawesome.com --></a>
-                                <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-github" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com --></a>
-                                <a class="icon-list-social-link" href="#!"><svg class="svg-inline--fa fa-twitter" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter"></i> Font Awesome fontawesome.com --></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="row gx-5">
-                                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                                    <div class="text-uppercase-expanded text-xs mb-4">Product</div>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><a href="#!">Landing</a></li>
-                                        <li class="mb-2"><a href="#!">Pages</a></li>
-                                        <li class="mb-2"><a href="#!">Sections</a></li>
-                                        <li class="mb-2"><a href="#!">Documentation</a></li>
-                                        <li><a href="#!">Changelog</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                                    <div class="text-uppercase-expanded text-xs mb-4">Technical</div>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><a href="#!">Documentation</a></li>
-                                        <li class="mb-2"><a href="#!">Changelog</a></li>
-                                        <li class="mb-2"><a href="#!">Theme Customizer</a></li>
-                                        <li><a href="#!">UI Kit</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                                    <div class="text-uppercase-expanded text-xs mb-4">Includes</div>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><a href="#!">Utilities</a></li>
-                                        <li class="mb-2"><a href="#!">Components</a></li>
-                                        <li class="mb-2"><a href="#!">Layouts</a></li>
-                                        <li class="mb-2"><a href="#!">Code Samples</a></li>
-                                        <li class="mb-2"><a href="#!">Products</a></li>
-                                        <li class="mb-2"><a href="#!">Affiliates</a></li>
-                                        <li><a href="#!">Updates</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-3 col-md-6">
-                                    <div class="text-uppercase-expanded text-xs mb-4">Legal</div>
-                                    <ul class="list-unstyled mb-0">
-                                        <li class="mb-2"><a href="#!">Privacy Policy</a></li>
-                                        <li class="mb-2"><a href="#!">Terms and Conditions</a></li>
-                                        <li><a href="#!">License</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="my-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-md-6 small">Copyright © Your Website 2023</div>
-                        <div class="col-md-6 text-md-end small">
-                            <a href="#!">Privacy Policy</a>
-                            ·
-                            <a href="#!">Terms &amp; Conditions</a>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+        </footer>
+    </div>
     </div>
 </body>
 <script type="text/javascript" src="./bootstrap/js/bootstrap.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
 </html>

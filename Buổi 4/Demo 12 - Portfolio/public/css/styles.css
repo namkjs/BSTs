@@ -12,7 +12,7 @@
 }
 
 .navbar1 {
-    margin-left: 500px;
+    margin-left: 150px;
 }
 
 .btn-Buy {
@@ -72,4 +72,33 @@
     height: 47px;
     border-bottom: 1px solid black;
     position: absolute;
+}
+
+.icon-call {
+    margin-top: 20px;
+}
+
+.name {
+    margin-left: -40px
+}
+
+.name1 {
+    margin-left: -50px;
+}
+
+.name2 {
+    margin-left: -60px
+}
+
+.name3 {
+    margin-left: 15px
+}
+
+.last {
+    margin-left: 420px;
+}
+
+.page {
+    background-image: url('/public/images/62619.jpg');
+    background-size: cover;
 }
