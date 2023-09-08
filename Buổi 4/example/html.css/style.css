@@ -1,0 +1,57 @@
+body{
+    font-family: 'Merriweather';
+    margin: 8;
+}
+h1,h2,ul{
+    margin: 0;
+}
+.anh{
+    text-align: center;
+
+}
+#top{
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+#top h1{
+    margin-bottom: 10px;
+}
+#bottom{
+    text-align: center;
+    font-weight: 700;
+    background-color: #bdc3c7;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.wrapper{
+    position: relative;
+}
+#main{
+    padding: 0 320px 0 20px;
+    line-height: 25px;
+}
+#main h1, #main h2{
+    margin: 10px 0 15px;
+}
+#sidebar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 270px;
+    font-size: 14px;
+    border: 2px dashed #bdc3c7;
+    padding: 0 0 20px 20px;
+}
+#sidebar img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+a{
+    color: #3498db;
+}
+a:hover{
+    color: #e74c3c;
+}
