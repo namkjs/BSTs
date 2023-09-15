@@ -1,0 +1,84 @@
+.d-flex {
+    margin-top: 10px;
+}
+
+.collapse {
+    margin-left: 600px;
+}
+
+.navbar-brand {
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.navbar1 {
+    margin-left: 150px;
+}
+
+.btn-Buy {
+    margin-right: 100px;
+}
+
+.page-header-ui-title {
+    font-size: 2.0rem;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 150px;
+}
+
+.target {
+    margin-top: 75px;
+    text-align: center;
+}
+
+
+.bg1 {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card-body {
+    margin: auto;
+    margin-left: 100px;
+}
+
+.member {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bg4 {
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+
+.contact {
+    margin-top: 100px;
+}
+
+
+.Title {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.home {
+    margin-top: -30px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.brand {
+    margin-top: -10px;
+}
