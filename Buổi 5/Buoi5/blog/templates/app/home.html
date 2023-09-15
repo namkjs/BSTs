@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Đăng câu chuyện</title>
+    <!-- Thêm Bootstrap CSS -->
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'static/css/style_home.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'static/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'static/bootstrap/css/bootstrap.css.min' %}">
+
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:8000/">
+                DohaHouse
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar1 navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="home nav-link active" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="http://127.0.0.1:8000/read">Đọc bài</a>
+                                </li>
+                                <li><a class="dropdown-item" href="http://127.0.0.1:8000/create">Đăng bài</a></li>
+                                <li><a class="dropdown-item" href="http://127.0.0.1:8000/update">Sửa bài</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Về chúng tôi</a>
+                        </li>
+                        </li>
+                    </ul>
+                    <a class="btn-Buy btn fw-500 ms-lg-4 btn-primary"
+                        href="https://www.facebook.com/profile.php?id=100088856981074">
+                        BigHeart
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-arrow-right ms-2">
+                            <line x1="" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+        </div>
+    </nav>
+    <header class="page page-header-ui page-header-ui-light bg-white">
+        <div class="page-header-ui-content">
+            <div class="container px-5">
+                <div class="page1 rox gx-5 justify-content-center">
+                    <div class="logo col-xl-8 col-lg-10 text-center">
+                        <img class="mb-4" src="{% static 'static/images/logo.jpg' %}" style="width:15rem">
+                        <h1 class="page-header-ui-title">Welcome to DohaHouse!</h1>
+                        <p class="" page-header-ui-text>DohaHouse là một công ty trực thuộc tập đoàn Tiếng Nhật Chuyên
+                            nghiệp với CEO Mr DoDo. Đây là trang giúp bạn đăng lên những câu chuyện bản thân</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="target">
+        <h2>Định hướng chúng tôi</h2>
+    </div>
+    <section class="bg1 bg-light py-10">
+        <div class="container px-5">
+            <div class="row gx-5 text-center">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="{% static '/static/images/pencil.svg' %}" alt="Bootstrap" width="32" height="32">
+                    </div>
+                    <div class="target-1">
+                        <h3>Gia đình</h3>
+                        <p>DohaHouse là một gia đình, không ai bị bỏ rơi và cũng không ai bị bỏ lại</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="{% static '/static/images/book.svg' %}" alt="Bootstrap" width="32" height="32">
+                    </div>
+                    <div class="target-1">
+                        <h3>Kiến thức</h3>
+                        <p>DohaHouse hướng tới mục tiêu giúp thành viên hiểu và hoàn thành môn Học theo Dự án khoa học
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="icon-call icon-stack icon-stack-xl bg-red text-white mb-4">
+                        <img src="{% static '/static/images/4-square.svg' %}" alt="Bootstrap" width="32" height="32">
+                        <img src="{% static '/static/images/0-square.svg' %}" alt="Bootstrap" width="32" height="32">
+
+                    </div>
+                    <div class="target-1">
+                        <h3>4.0 GPA</h3>
+                        <p>DohaHouse đảm bảo các thành viên đều đạt 4.0 GPA cuối khóa
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="svg-border-rounded text-white">
+                <img>
+            </div>
+    </section>
+
+    <!-- Thêm Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
