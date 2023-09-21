@@ -1,0 +1,27 @@
+{% extends 'accounts/layouts/main.html' %}
+
+
+{% block title %}
+    Trune
+{% endblock title %}
+
+
+{% block content %}
+<section>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class = "card shadow ">
+                    <div class="card-body">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        {{form.as_p}}
+                        {% csrf_token %}
+                        <button type="submit" class = "btn btn-success"> Add </button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+{% endblock content %}

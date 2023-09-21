@@ -1,0 +1,47 @@
+{% extends 'accounts/layouts/main.html' %}
+
+{% block title %}
+Trune
+{% endblock title %}
+
+{% block content %}
+<h1>Hello Trune</h1>
+<h5>Since 2023</h5>
+
+{% load static %}
+
+<section>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <th class="text-right">Title:</th>
+                                <td>{{ blogs.title }}</td>
+                            </tr>
+                            <tr>
+                                <th class="text-right">Description:</th>
+                                <td>{{ blogs.description }}</td>
+                            </tr>
+                            <tr>
+                                <th class="text-right">Image:</th>
+                                <td>
+                                    {% if blogs.image %}
+                                        <img src="{{ blogs.image.url }}" alt="Images" class="w-50">
+                                    {% else %}
+                                        <img src="{% static 'images/dummy.jpg' %}" alt="Images" class="w-50">
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
