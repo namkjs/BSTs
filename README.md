@@ -1,4 +1,4 @@
-# Đây là bài tập thực hành nhóm 2
+# This is a practice exercise for group 2
 #Buổi 1: Test Hackerrank
 #Buổi 2: Basic Operations of Binary Search Trees
 #Buổi 3: OOP
